@@ -1,0 +1,25 @@
+//
+//  legoX.pch
+//  legoX
+//
+//  Created by 谢吴军 on 2020/4/14.
+//  Copyright © 2020 dreamit. All rights reserved.
+//
+
+
+/**
+ 此文件的路径需要配置
+ */
+#ifndef legoX_pch
+#define legoX_pch
+
+// oc和swift混编
+#import "legoX-Swift.h"
+// 页面
+#import "LGTabBarController.h"
+#import "LGNavigationController.h"
+// 第三方库
+#import "IQKeyboardManager.h"
+
+
+#endif
